@@ -1,0 +1,35 @@
+body {
+    font-family:'poppins';
+    background-color: violet;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#dados {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+}
+
+#perfil-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: justify;
+}
+
+.img-perfil{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.card-padding{
+    padding: 50px;
+}

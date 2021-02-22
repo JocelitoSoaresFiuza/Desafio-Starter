@@ -1,0 +1,134 @@
+body {
+    background-color:#f5f5f5;
+}
+
+.container-card{
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 2em;
+}
+
+.img-perfil-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: "poppins";
+}
+
+.hr{
+    height: 4px;
+    background-color: black;
+    width: 100%;
+}
+
+.card-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil{
+    background-color: #c612f3 !important;
+    box-shadow: 0px 0px 5px #f5f5f5f5;
+}
+.botoes-card{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre{
+    border-radius: 20px;
+    padding: 5PX 25PX;
+    background-color: black !important;
+    font-weight: 600;
+    color: #ffff !important;
+}
+
+#btn-projeto{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+.icon-redes-sociais{
+text-align: center;
+padding: 10px;
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+.title-subtitle{
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px 17px;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#footer-elementos {
+    display: flex;
+    justify-content: space-between;    
+}
+
+@media (min-width: 900px) {
+
+    .container-linear {
+        background: linear-gradient(to left, #fff 60%, #e42bf5 40%);
+    }
+
+    .card-col{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: #fff !important;
+        box-shadow: -2px 5px 10px 0px #292a2d;
+    }
+
+    .card-perfil{
+        background-color: #fff !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: 2px !important;
+    }
+
+    .btn-card {
+        color: black !important;
+    }
+
+    .text-body {
+        box-shadow: none;
+    }
+.text{
+    max-width: 430PX;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+
+    #footer-elementos {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+
+#texto-2 {
+    display: none;
+}

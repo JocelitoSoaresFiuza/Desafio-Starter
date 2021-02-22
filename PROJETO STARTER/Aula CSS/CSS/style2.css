@@ -1,0 +1,20 @@
+h1 {
+    background-color: teal;
+}
+#quadro01{
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+}
+#quadro02 {
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin: auto;
+    background-image: url(../imagens/pg208.jpg);
+}
+#quadro03 {
+    height: 50px;
+    width: 200px;
+    background-color: seagreen;
+}

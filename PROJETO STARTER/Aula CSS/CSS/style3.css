@@ -1,0 +1,8 @@
+#quadro {
+    height: 300px;
+    width: 300px;
+    background-color: slateblue;
+    margin: 50px auto;
+    background-image: url('../imagens/onix.jpg');
+    background-size: cover; 
+}
